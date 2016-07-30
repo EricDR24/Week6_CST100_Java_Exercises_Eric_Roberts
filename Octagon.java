@@ -1,6 +1,13 @@
-
-
-
+/** Program:  13.11 Octagon
+  * File:     Octagon.java 
+  * Summary:  Chapter 13, Exercise 11, Write a class named Octagon that extends GeometricObject and implements the 
+ * 		Comparable and Cloneable inter-faces. Write a test program that creates an 
+ * 		Octagonobject with side value 5 and displays its area and perimeter. Create 
+ * 		a new object using the clone method and compare the two objects using the 
+ * 		compareTo method.
+  * Author:   Eric Roberts
+  * Date:     July 30, 2016
+**/
 public class Octagon extends GeometricObject implements Cloneable, Comparable<Octagon>  {
 	
 	//data field
